@@ -7,7 +7,12 @@ void fun()
 {
     cout << "fun() called" << endl;
 }
+void fun1()
+{
+    cout << "fun1() called" << endl;
+}
 int main()
 {
     fun();
+    fun1();
 }
